@@ -8,16 +8,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/drosenfeld87/portfolio2.git"
+    "url": "git+https://github.com/drosenfeld87/portfolio2.git"
   },
-  "author": "Debbie Rosenfeld",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/drosenfeld87/portfolio2/issues"
   },
   "homepage": "https://github.com/drosenfeld87/portfolio2#readme",
+  "dependencies": {
+    "autoprefixer": "^9.4.6",
+    "cssnano": "^4.1.8",
+    "del": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-noop": "^1.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss-assets": "^5.0.0",
+    "usedcss": "^1.0.7"
+  },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0"
+    "browser-sync": "^2.26.3"
   }
 }
