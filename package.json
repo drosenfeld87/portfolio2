@@ -1,0 +1,23 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/drosenfeld87/portfolio2.git"
+  },
+  "author": "Debbie Rosenfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drosenfeld87/portfolio2/issues"
+  },
+  "homepage": "https://github.com/drosenfeld87/portfolio2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
