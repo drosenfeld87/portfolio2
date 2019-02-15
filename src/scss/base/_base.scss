@@ -3,8 +3,14 @@ $font-main: sans-serif;
 $font-size: 100%;
 
 body {
-  font-family: $font-main;
-  font-size: $font-size;
-  color: #444;
-  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  background-color: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
 }
