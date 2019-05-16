@@ -1,28 +1,10 @@
-.about-me-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+.about-me-container {
+  width: 75%;
 }
 
-.about-me-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.about-me-wrapper {
-  margin: 15px;
-  background-color: red;
-}
-
-.profile-photo {
-  background-color: blue;
-  height: 100px;
-}
-
-.about-me-text {
-  background-color: green;
-  height: 100px;
+.my-photo {
+  background-image: url(../images/GraffitiAlley-102.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
