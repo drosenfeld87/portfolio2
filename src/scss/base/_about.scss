@@ -1,10 +1,9 @@
-.about-me-container {
-  width: 75%;
-}
 
-.my-photo {
-  background-image: url(../images/GraffitiAlley-102.png);
-  background-size: cover;
+.hero-image {
+  background-image: url(../images/GraffitiAlley-85-website.jpg);
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
