@@ -1,7 +1,8 @@
 
 .hero-image {
-  background-image: url(../images/GraffitiAlley-85-website.jpg);
-  background: rgba(39,62,84,0.82);
+  background: linear-gradient(
+    rgba(20,20,20, .1)
+    url(../images/GraffitiAlley-85-website.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
