@@ -16,25 +16,31 @@
     <li><a href="#">Contact</a></li>
   </ul>
 </header>
-<section class="hero-image">
-  <form class="contact-me-form" action="send_form_email.php" method="post">
-    <div class="form-label">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="user_name">
+<div class="hero-image">
+  <section class="contact-me">
+    <div class="contact-intro-text">
+      <h1>This is where I wanted you to end up.</h1>
+        <p>Looks like you want to get in touch with me, that's great! Hopefully it's about a job offer or a picture of a cat. I'm into both those things.</p>
     </div>
-  <div class="form-label">
-    <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="user_mail">
-  </div>
-  <div class="form-label">
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
-  </div>
-    <div class="button">
-      <button type="submit">Send your message</button>
-    </div>
-  </form>
-</section>
+    <form class="contact-me-form" action="send_form_email.php" method="post">
+        <div class="form-label">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+      <div class="form-label">
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="user_mail">
+      </div>
+      <div class="form-label">
+        <label for="msg">Message</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Send your message</button>
+      </div>
+    </form>
+  </section>
+</div>
 
 
 

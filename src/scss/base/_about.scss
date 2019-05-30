@@ -2,9 +2,7 @@ $font-main: sans-serif;
 $font-size: 100%;
 
 .hero-image {
-  background:
-  linear-gradient(
-  rgba(5, 5, 5, 0.7),
+  background-image:
     url("../images/GraffitiAlley-85-website.jpg");
   height: 100vh;
   display: flex;
@@ -20,4 +18,6 @@ $font-size: 100%;
   text-align: center;
   position: absolute;
   margin: 0 auto;
+  width: 75vh;
+  color: #fff;
 }

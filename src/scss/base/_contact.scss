@@ -1,12 +1,18 @@
 $font-main: Roboto sans-serif;
 $font-size: 100%;
 
+.contact-me {
+  text-align: center;
+  .contact-intro-text {
+    color: #fff;
+  }
+}
 .hero-image {
-  background:
+  background-image:
   linear-gradient(
-  rgba(5, 5, 5, 0.8,
-  rgba(5, 5, 5, 0.8)),
-    url("../images/GraffitiAlley-85-website.jpg"));
+  rgba(0, 0, 0, 0.7),
+  rgba(0, 0, 0, 0.7)),
+    url("../images/GraffitiAlley-85-website.jpg");
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,18 +20,15 @@ $font-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
-form {
-  width: 400px;
+
+.contact-me-form {
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
-  form-label {
-    margin-top: 1em;
-  }
 }
+
 
 
 label {
